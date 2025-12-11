@@ -7,9 +7,15 @@
 
 ## How to Use in MARS LE
 1. Move `Filler.java` into `mars/mips/instructions/customlangs/` in the [MARS-LE](https://github.com/johnaedelman/MARS-LE) source.
-2. Rebuild MARS LE (or run it from your IDE).
-3. In your MIPS code, select the "Filler Assembly" language if needed, and use instructions like:
+2. Open a terminal in the MARS-LE, run:
+   ```bash
+   java -jar BuildCustomLang.jar Filler.java
+   ```
+3. Then navigate to \MARS-LE-main\Mars.jar, and run it, click Tools, click Switch Language, click Select Language, select Filler Assembly:
    ```asm
+   # test assembly more in \demos
    roll
    lowkenuinely
-   sayless $zero, $zero, 42
+   uh $v0, $zero, 5
+   sayless
+   ```
