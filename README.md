@@ -1,17 +1,18 @@
 # Filler Assembly for MARS LE
-
+> FIller Assembly is a customed MIPS Assembly language extension for [MARS-LE](https://github.com/johnaedelman/MARS-LE) that introduces a collection of filler words integrating into MIPS Assembly instructions.
 ## Instructions Implemented
 - uh, um, like, uknow, bruh, nah, orlike, yeno, frfr, btw, sayless, ig, ngl, ratio, damn, well
 - lowkey / highkey
 - lowkenuinely / highkenuinely
 
 ## How to Use in MARS LE
-1. Move `Filler.java` into `mars/mips/instructions/customlangs/` in the [MARS-LE](https://github.com/johnaedelman/MARS-LE) source.
-2. Open a terminal in the MARS-LE, run:
+1. Download [MARS-LE](https://github.com/johnaedelman/MARS-LE).
+2. Move `Filler.java` into `mars/mips/instructions/customlangs/` in the [MARS-LE](https://github.com/johnaedelman/MARS-LE) source.
+3. Open a terminal in the MARS-LE, run:
    ```bash
    java -jar BuildCustomLang.jar Filler.java
    ```
-3. Then navigate to \MARS-LE-main\Mars.jar, and run it, click Tools, click Switch Language, click Select Language, select Filler Assembly:
+4. Then navigate to \MARS-LE-main\Mars.jar, and run it, click Tools, click Switch Language, click Select Language, select Filler Assembly:
    ```asm
    # test assembly more in \demos
    roll
